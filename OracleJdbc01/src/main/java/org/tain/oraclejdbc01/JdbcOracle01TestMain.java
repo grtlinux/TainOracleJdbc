@@ -19,7 +19,7 @@ import java.util.Map;
  * Hello world!
  *
  */
-public class App01 {
+public class JdbcOracle01TestMain {
 
 	private static boolean flag;
 
