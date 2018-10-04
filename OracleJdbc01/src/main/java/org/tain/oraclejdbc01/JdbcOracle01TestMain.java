@@ -185,7 +185,7 @@ public class JdbcOracle01TestMain {
 			conn = DriverManager.getConnection(url, "NEO_EP", "NEO_EP_DBA");
 			conn.setAutoCommit(false);
 
-			String sql = "delete TB_MAIL_SPOOL"
+			String sql = "delete from TB_MAIL_SPOOL"
 					+ " where 1=1"
 					+ "    and EAGLE_SENDER_ID = ?"
 					+ "";
