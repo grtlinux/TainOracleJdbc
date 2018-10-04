@@ -29,7 +29,7 @@ public class JdbcOracle01TestMain {
 
 	///////////////////////////////////////////////////////////////////////////
 
-	public static String getClassInfo() {
+	private static String getClassInfo() {
 		final StackTraceElement e = Thread.currentThread().getStackTrace()[2];
 
 		StringBuffer sb = new StringBuffer();
